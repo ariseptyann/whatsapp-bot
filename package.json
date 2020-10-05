@@ -1,0 +1,26 @@
+{
+  "name": "twilio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ari Septyan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "cors": "2.8.5",
+    "dotenv": "8.0.0",
+    "express": "^4.16.3",
+    "googleapis": "^60.0.1",
+    "twilio": "^4.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
